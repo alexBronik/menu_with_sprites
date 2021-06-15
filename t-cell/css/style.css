@@ -1,0 +1,222 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+div {
+    outline: 2px solid red;
+}
+.wrapper {
+    width: 1200px;
+    background: yellowgreen;
+    margin: 0 auto;
+    text-align: center;
+}
+/*----------------1------------------*/
+.table-cell-1 {
+    width: 100%;
+    height: 100px;
+    
+}
+.table-cell-1 div {
+    width: 400px;
+    height: 100px;
+    display: table-cell;
+}
+/*----------------2------------------*/
+.table-cell-2 {
+    width: 100%;
+    height: 100px;
+}
+.tbl-1 {
+    width: 600%;
+    height: 100%;
+    display: table-cell;
+}
+.tbl-2 {
+    width: 600%;
+    height: 100%;
+    display: table-cell;
+}
+.tbl-1 div {
+    width: 600px;
+    height: 50px;
+}
+.tbl-2 div {
+    width: 600px;
+    height: 33.33px;
+}
+/*----------------3------------------*/
+.table-cell-3 {
+    width: 100%;
+    height: 100px;
+}
+.d-1 {
+    width: 400px;
+    height: 100px;
+    display: table-cell;
+}
+.t-cell {
+    width: 800px;
+    height: 100px;
+    display: table-cell;
+}
+.d-2 {
+    width: 800px;
+    height: 50px;
+}
+.t-cell-a {
+    width: 800px;
+    height: 50px;
+}
+.t-cell-a div {
+    width: 400px;
+    height: 50px;
+    display: table-cell;
+}
+/*----------------4------------------*/
+.table-cell-4 {
+    width: 100%;
+    height: 150px;
+}
+.t-cell-1 {
+    width: 800px;
+    height: 150px;
+    display: table-cell;
+}
+.t-cell-2 {
+    width: 400px;
+    height: 150px;
+    display: table-cell;
+}
+.tc-1 {
+    width: 800px;
+    height: 50%;
+}
+.tc-2 {
+    width: 800px;
+    height: 50%;
+}
+.tc-2-1 {
+    width: 400px;
+    height: 75px;
+    display: table-cell;
+}
+.tc-2-2 {
+    width: 400px;
+    height: 75px;
+    display: table-cell;
+}
+.tc-2-1-a {
+    width: 400px;
+    height: 50%;
+}
+.tc-2-1-b {
+    width: 400px;
+    height: 50%;
+}
+.tc-2-1-b div {
+    width: 200px;
+    height: 37.5px;
+    display: table-cell;
+}
+/*----------------ul------------------*/
+a {
+    color: red;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+ul {
+    text-align: center;
+    font-size: 0;            
+}
+ul li {
+    display: inline-block;
+    background: aqua;
+    font-size: 10px;
+    border-right: red solid 2px;
+    position: relative;
+}
+ul li:last-child {
+    border: none;
+}
+ul li:hover {
+    background: green; 
+    padding: 15px 35px;            
+}
+a:hover {
+    color: red;
+}
+ul li a {
+    text-decoration: none;
+    color: seagreen;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    display: block;
+}
+ul .parent:hover .cld {
+    display: block;
+}
+.cld {
+    position: absolute;  
+    top: 100%;
+    left: 0;  
+    display: none;
+    padding: 10px 0 0;            
+}
+.cld li {
+    display: block;
+}
+.parent-2 {
+    position: relative;
+}
+.parent-2:hover .cld-2 li {
+    position: absolute;
+}
+.cld-2 li {
+    display: block;
+    top: 0;
+    left: 100%;
+}
